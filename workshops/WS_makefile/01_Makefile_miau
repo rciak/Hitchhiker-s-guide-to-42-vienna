@@ -1,0 +1,7 @@
+%.miau: %.wuff
+	cp $< $@
+
+3.miau: 3.wuff
+	@echo "Jetzt wird die rule 3.miau ausgeführt / die Datei 3.miau gebaut"
+	cp $< $@
+	@echo "done"
