@@ -1,6 +1,4 @@
-# (English)                         |     (Deutsch)
-#                                   |
-# Structure of a Makefile rule:     |     Struktur einer Makefile Regel
+# Structure of a Makefile rule:     |     Struktur einer Makefile Regel (GERMAN)
 #                                   | 
 # target: prerequisites             |     Zielobjekt: Erfordernisse
 #     recipe line 1                 |         Rezept Zeile 1
