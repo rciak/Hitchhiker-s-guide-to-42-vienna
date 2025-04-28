@@ -18,7 +18,7 @@
 3. Run rules again: Nothing to be done
   --> Same behaviour as before
 
-4. Subst: 
+4. Subst:
    * concatenated --> $(@)
    * only_first_preresquisite --> $(@)
 
