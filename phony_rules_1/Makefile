@@ -15,10 +15,8 @@ SRC := \
 	work_2.wuff \
 	work_3.wuff 
 
-#Here something important is missing ...
-all: $(COLLECTION_NAME)
-
-$(COLLECTION_NAME): $(PCC_OBJS)
+#With the following version there is a problem
+all: $(PCC_OBJS)
 	@echo "PCC_OBJS contains the prerequisites:"
 	@echo $(PCC_OBJS)
 	@echo "All prerequisites match our pattern rule and are built by it before"
