@@ -2,6 +2,8 @@
 
 * Tell story, bringing the hiden rules up one by one by deleting inbetween \n 's
 
+* "Pirate cat annoyed: Can't I do this better than adding a new rule
+  for essentially the same task each time?
 * Replace the three individual rules (uncomment) by the pattern rule
 
   ```make
