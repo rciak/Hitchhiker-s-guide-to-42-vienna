@@ -5,22 +5,26 @@
 # Pattern Rules ...
 #
 
-PCC_OBJ_DIR := pcc_obj
-# PCC_OBJS = $(patsubst %.wuff, $(PCC_OBJ_DIR)/%.miau, $(SRC))
+COLLECTION_NAME := lib_of_all_pirated_copies.pcc
 
-# SRC := \
-# 	work_1.wuff \
-# 	work_2.wuff \
-# 	work_3.wuff 
+PCC_OBJDIR := pcc_obj
+PCC_OBJS = $(patsubst %.wuff, $(PCC_OBJDIR)/%.miau, $(SRC))
 
-# all: $(PCC_OBJS)
-# 	@echo "PCC_OBJS contains the prerequisites:"
-# 	@echo $(PCC_OBJS)
-# 	@echo "All prerequisites match our pattern rule and are built by it."
+SRC := \
+	work_1.wuff \
+	work_2.wuff \
+	work_3.wuff 
+
+$(COLLECTION_NAME): $(PCC_OBJS)
+	@echo "PCC_OBJS contains the prerequisites:"
+	@echo $(PCC_OBJS)
+	@echo "All prerequisites match our pattern rule and are built by it before"
+	@echo "this recipe (rule all) is executed."
+	tar -cf $(COLLECTION_NAME) $(PCC_OBJS)
 
 pcc_obj/%.miau: %.wuff
-#	@echo Creating folder $(PCC_OBJ_DIR) if it does not exist yet
-	@mkdir -p $(PCC_OBJ_DIR)
+#	@echo Creating folder $(PCC_OBJDIR) if it does not exist yet
+	@mkdir -p $(PCC_OBJDIR)
 	@echo Pirate copying:
 	@echo "   $(<) --> $(@)"
 	@cp $(<) $(@)    
