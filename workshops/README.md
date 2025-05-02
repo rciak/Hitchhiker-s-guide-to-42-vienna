@@ -40,9 +40,6 @@ The workshops presents evolving `Makefile`s to introduce
   This official documentation is very precise and seems good,
   but maybe not ideal for beginners.
 
-
-* [Makefile cookbook](https://www.gnu.org/software/make/manual/html_node/Makefile-Cookbook.html)
-
 ### Ideas for further improvements of the workshop 25-04-29_makefiles:
 
 When preparing to do the workshop another time here are some
