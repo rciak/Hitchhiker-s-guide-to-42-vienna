@@ -2,16 +2,17 @@
 
 ***Preliminary remark:*** This is evolving stuff
 
-This repo shall help new students to get started
+**Purpose:** This repo shall help new students to get started
 at 42 vienna more easily. Currently it focuses
 on two aspects:
 
 * **After Workshop Downloads**:
   In the folder `workshops` you can look
   if all or some of the material used in a
-  workshop has been shared. (***!!! NO VERY BIG FILES like e.g. Videos PLEASE !!!***)
+  workshop has been shared.
+  (***!!! NO VERY BIG FILES like e.g. Videos PLEASE !!!***)
   For an overview have a look at
-  `workshops/README_WORKSHOPS.md` please.
+  `workshops/README.md` please.
 
 * **Collecting useful informations**:
   The accompanying github [wiki][corresp-wiki]
@@ -24,13 +25,3 @@ on two aspects:
 
 [corresp-wiki]: https://github.com/rciak/Hitchhiker-s-guide-to-42-vienna/wiki
 
-## Workshops
-
-Material for Workshops that were already held but might be repeated somewhen.
-
-The materials from the held workshops / demo sessions
-are located in the following folders:
-
-* *25-04-29_makefiles* - Beginner's level:
-  Basic notions, pattern rules, phony rules
-  

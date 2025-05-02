@@ -24,4 +24,5 @@
 
 **Benefit of using this Autovariables:**
 Compacter readable & more ease to adopt:
-A file 4 can just be added to the list of prerequisites.
+A file 4 can just be added to the list of prerequisites
+without any need to change the recipe! (**less error prone**!)

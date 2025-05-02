@@ -2,7 +2,7 @@
 # Normal Rules : For creating/updating files
 #
 #
-# Pattern Rules ...
+# Introducing PHONY Rules ...
 #
 
 COLLECTION_NAME := lib_of_all_pirated_copies.pcc
@@ -15,7 +15,7 @@ SRC := \
 	work_2.wuff \
 	work_3.wuff 
 
-#With the following version there is a problem
+#With the following variant, of ../pattern_rules_1/Makefile, there is a problem
 all: $(PCC_OBJS)
 	@echo "PCC_OBJS contains the prerequisites:"
 	@echo $(PCC_OBJS)

@@ -7,7 +7,7 @@
   * Dog Mulder from the FDI (Federal Dog-Department of Investigation) noticed
     that flaw in the rule all allowing im to stop its functioning...
 
-* add file named `all` --> make all not working any more
+* add file named `all` --> make all not working any more as before.
 
 * Pirate cat strikes back and makes `all` a phony target `.PHONY`, telling
   make to not regard it as a file:
