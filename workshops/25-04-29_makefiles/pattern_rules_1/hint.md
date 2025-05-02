@@ -1,17 +1,14 @@
-# Patttern rules 1
+# Pattern rules 1
 
-* Tell story, bringing the hiden rules up one by one by deleting inbetween \n 's
+* *Tell story:* We now go back in the past to a time when cats and dogs
+  cats still spoke the same laguage.
+  At this time there lived a group called the pirate copy cats,
+  best known for their infamuous leader *pirate cat* remembered by the old
+  as CC (copy cat) before turning to piracy...
 
-* "Pirate cat annoyed: Can't I do this better than adding a new rule
+* `make pcc_obj/work_1.miau`, ...
+
+* --> Pirate cat annoyed: Can't I do this better than adding a new rule
   for essentially the same task each time?
-* Replace the three individual rules (uncomment) by the pattern rule
-
-  ```make
-pcc_obj/%.miau: %.wuff
-	@echo Creating folder $(PCC_OBJ_DIR) if it does not exist yet
-	@mkdir -p $(PCC_OBJ_DIR)
-	@echo Pirate copying $(<) to $(@)
-	cp $(<) $(@)
-  ```
-
-* **Remark:** Better use rsync instead of cp (cp is more for interactive use)
+* Replace the three individual rules (uncomment) by the pattern rule...  
+  --> Does the same job.
