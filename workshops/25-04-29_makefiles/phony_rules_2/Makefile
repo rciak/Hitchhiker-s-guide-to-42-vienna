@@ -2,7 +2,7 @@
 # Normal Rules : For creating/updating files
 #
 #
-# Pattern Rules ...
+# Introducing PHONY Rules ...
 #
 
 COLLECTION_NAME := lib_of_all_pirated_copies.pcc
